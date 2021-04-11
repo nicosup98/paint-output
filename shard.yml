@@ -1,0 +1,21 @@
+name: paintoutput
+version: 0.1.0
+
+authors:
+  nicolangelo damico <damiconicola98@gmail.com>
+
+targets:
+  paintoutput:
+    main: src/paintoutput.cr
+
+dependencies:
+  climate:
+    github: Sija/climate.cr
+
+  admiral:
+    github: jwaldrip/admiral.cr
+  
+
+crystal: 1.0.0
+
+license: MIT
